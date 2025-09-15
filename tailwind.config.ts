@@ -57,6 +57,30 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        energy: {
+          heat: "hsl(var(--energy-heat))",
+          "heat-foreground": "hsl(var(--energy-heat-foreground))",
+          cool: "hsl(var(--energy-cool))",
+          "cool-foreground": "hsl(var(--energy-cool-foreground))",
+          sustainable: "hsl(var(--energy-sustainable))",
+          "sustainable-foreground": "hsl(var(--energy-sustainable-foreground))",
+          neutral: "hsl(var(--energy-neutral))",
+          "neutral-foreground": "hsl(var(--energy-neutral-foreground))",
+        },
+      },
+      backgroundImage: {
+        "gradient-primary": "var(--gradient-primary)",
+        "gradient-energy": "var(--gradient-energy)",
+        "gradient-heat": "var(--gradient-heat)",
+        "gradient-cool": "var(--gradient-cool)",
+      },
+      boxShadow: {
+        "energy": "var(--shadow-energy)",
+        "card": "var(--shadow-card)",
+        "glow": "var(--shadow-glow)",
+      },
+      transitionTimingFunction: {
+        "smooth": "var(--transition-smooth)",
       },
       borderRadius: {
         lg: "var(--radius)",
